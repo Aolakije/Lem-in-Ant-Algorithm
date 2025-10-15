@@ -169,6 +169,6 @@ This ensures all ants reach the end in the minimum number of turns.
 The visualizer will help better understand how the algorithm works and provide insights into path efficiency.
 
 ## Team
-This project was developed by a team of three dedicated developers focused on creating an efficient solution to a complex graph traversal and scheduling problem.
+This project was developed by Aolakije a dedicated developer focused on creating an efficient solution to a complex graph traversal and scheduling problem.
 
 For detailed explanations of the algorithms, see our [documentation](docs/lem_in_full_line_by_line_walkthrough_from_your_original_code_to_the_final_passing_audit.md).
