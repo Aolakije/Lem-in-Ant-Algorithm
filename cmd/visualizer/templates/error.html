@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-red-50 min-h-screen flex flex-col">
+  <header class="bg-red-600 text-white p-4 flex justify-between">
+    <h1 class="text-2xl font-bold">Error ❌</h1>
+    <a href="/" class="bg-white text-red-600 px-3 py-1 rounded">Back</a>
+  </header>
+
+  <main class="flex-1 flex items-center justify-center p-6">
+    <div class="bg-white shadow-lg rounded-lg p-6 max-w-xl">
+      <h2 class="text-xl font-semibold text-red-600 mb-4">An error occurred</h2>
+      <p class="mb-2">{{.Error}}</p>
+      <h3 class="mt-4 font-semibold">Your input:</h3>
+      <pre class="bg-gray-100 p-2 rounded text-sm whitespace-pre-wrap">{{.Input}}</pre>
+    </div>
+  </main>
+</body>
+</html>
